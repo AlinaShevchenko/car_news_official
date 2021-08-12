@@ -117,7 +117,8 @@ a {
   align-items: center;
   overflow: hidden;
   background-color: rgb(104, 37, 37);
-  outline: 20px solid white;
+  border: 20px solid white;
+  border-radius: 10px;
   height: 500px;
 
 }
@@ -185,6 +186,7 @@ a {
   height: 100%;
   grid-template-rows: 300px 1fr;
   background-color:rgb(247, 244, 244);
+  border-radius: 10px;
 }
 
 .latest-news__image {
